@@ -1,0 +1,66 @@
+{
+  "sedan": [
+    {
+      "id": 1,
+      "name": "Acura VXS 2023",
+      "price": 1549,
+      "year": 2023,
+      "img": "./Imagenes/Sedan-Acura.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Aston Martin GJB 2022",
+      "price": 3000,
+      "year": 2020,
+      "img": "./Imagenes/Sedan-Aston Martin.webp"
+    },
+  ],
+  "SUV": [
+    {
+      "id": 5,
+      "name": "Aston Martin XTP 2021",
+      "price": 5134,
+      "year": 2023,
+      "img": "./Imagenes/SUV-Aston Martin.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Lamborgini Velanta 2023",
+      "price": 4800,
+      "year": 2020,
+      "img": "./Imagenes/SUV-Lamborgini.webp"
+    },
+  ],
+  "deportivo": [
+    {
+      "id": 9,
+      "name": "Aston Martin XTP 2021",
+      "price": 3197,
+      "year": 2023,
+      "img": "./Imagenes/Deportivo-Aston Martin.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Chevrolet Corvette 2021",
+      "price": 3121,
+      "year": 2020,
+      "img": "./Imagenes/Deportivo-Corvette.jpg"
+    },
+  ],
+  "camioneta": [
+    {
+      "id": 13,
+      "name": "Ford GT 2023",
+      "price": 3947,
+      "year": 2023,
+      "img": "./Imagenes/Camioneta-Ford.jpg"
+    },
+    {
+      "id": 14,
+      "name": "RAM GR 2021",
+      "price": 4419,
+      "year": 2020,
+      "img": "./Imagenes/Camioneta-RAM.jpg"
+    }
+  ]
+}
