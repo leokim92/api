@@ -1,14 +1,35 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "autos": [
+    { "id": 1, "category": "sedan", "name": "Acura VXS 2023" },
+    { "id": 2, "category": "sedan", "name": "Aston Martin GJB 2022" },
+    { "id": 3, "category": "SUV", "name": "Aston Martin XTP 2021" },
+    { "id": 4, "category": "SUV", "name": "Lamborgini Velanta 2023" },
+    { "id": 5, "category": "deportivo", "name": "Aston Martin XTP 2021" },
+    { "id": 6, "category": "deportivo", "name": "Chevrolet Corvette 2021" },
+    { "id": 7, "category": "camioneta", "name": "Ford GT 2023" },
+    { "id": 8, "category": "camioneta", "name": "RAM GR 2021" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "carDetails": [
+    { "id": 1, "autoId": 1, "price": 1549, "year": 2023 },
+    { "id": 2, "autoId": 2, "price": 3000, "year": 2020 },
+    { "id": 3, "autoId": 3, "price": 5134, "year": 2023 },
+    { "id": 4, "autoId": 4, "price": 4800, "year": 2020 },
+    { "id": 5, "autoId": 5, "price": 3197, "year": 2023 },
+    { "id": 6, "autoId": 6, "price": 3121, "year": 2020 },
+    { "id": 7, "autoId": 7, "price": 3947, "year": 2023 },
+    { "id": 8, "autoId": 8, "price": 4419, "year": 2020 }
+  ],
+  "manufacturerDetails": [
+    { "id": 1, "autoId": 1, "manufacturer": "Acura", "country": "Japan" },
+    { "id": 2, "autoId": 2, "manufacturer": "Aston Martin", "country": "United Kingdom" },
+    { "id": 3, "autoId": 3, "manufacturer": "Aston Martin", "country": "United Kingdom" },
+    { "id": 4, "autoId": 4, "manufacturer": "Lamborghini", "country": "Italy" },
+    { "id": 5, "autoId": 5, "manufacturer": "Aston Martin", "country": "United Kingdom" },
+    { "id": 6, "autoId": 6, "manufacturer": "Chevrolet", "country": "United States" },
+    { "id": 7, "autoId": 7, "manufacturer": "Ford", "country": "United States" },
+    { "id": 8, "autoId": 8, "manufacturer": "RAM", "country": "United States" }
   ],
   "profile": {
-    "name": "typicode"
+    "name": "AutoFirm"
   }
 }
